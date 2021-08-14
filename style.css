@@ -1,0 +1,195 @@
+body {
+    background-color: #0a946b8c;
+    color: #070606;
+    line-height: 1.2;
+    font-size: 1rem;
+    font-family: "Verdana", sans-serif;
+    scrollbar-width: none;
+  }
+  .box{
+    width: 450px;
+    background: rgba(32, 160, 100, 0.151);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    font-family: 'Century Gothic',sans-serif;
+    height: 100vh;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+
+  .btn {
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    background-color: #ffffff;
+    color: #030305;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: #070606;
+  }
+
+  .button1 {
+      padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row {
+    display: flex;
+  }
+  .row > div {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .college {
+    padding: 3em;
+    flex: 7;
+  }
+
+  .course {
+    padding: 1em;
+    flex: 5;
+  }
+
+  .about {
+    flex: 6;
+  }
+  
+  .dualtone {
+      background-color: #f0ffffc0;
+    }
+    
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        
+    .about-me{
+        height: 50vh;
+        padding: 80px;
+    }
+    .me{
+        padding: 40px;
+    }
+    
+    section.education .education-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    section.education .education-card {
+        flex: 1;
+        width: 800px;
+        
+        margin: 0.5rem 1rem;
+        background-color:#f0fff9;
+        border-radius: 0.25rem;
+        text-align: center;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);
+    }
+    section.education .education-card h4 {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #000000;
+    }
+    section.education .education-card h3 {
+        margin: 1rem 0 0.5rem 0;
+    }
+    section.education .education-card p {
+        font-size: 0.875rem;
+    }
+    .education{
+        padding: 30px;
+    }
+    
+    .col-color{
+      background-color: #00ff9554 !important;
+    }
+    h1,
+    h2,
+    h3 {
+        font-weight: 600;
+    }
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical ;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+    
